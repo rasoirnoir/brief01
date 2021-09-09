@@ -1,0 +1,30 @@
+body{
+    background-color: #eee;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+    padding: 1em;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 0 4px 3px #ddd;
+}
+
+.sec-charte{
+    background-color: white;
+    padding: 2em;
+    margin: 2em 0 2em 0;
+    border-radius: 10px;
+    box-shadow: 1px 10px 10px #ddd;
+}
+
+.sec-charte ul{
+    list-style-image: url("../images/bullet.png");
+}
