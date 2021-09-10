@@ -28,3 +28,11 @@ body{
 .sec-charte ul{
     list-style-image: url("../images/bullet.png");
 }
+
+.visible{
+    display: block;
+}
+
+.invisible{
+    display: none;
+}
