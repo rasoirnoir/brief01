@@ -30,10 +30,12 @@ body{
     list-style-image: url("../images/bullet.png");
 }
 
-.visible{
-    display: block;
+.invisible{
+    /* visibility: hidden; */
+    display: none;
 }
 
-.invisible{
-    display: none;
+.visible{
+    /* visibility: visible; */
+    display: block;
 }
