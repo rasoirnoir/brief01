@@ -39,3 +39,7 @@ body{
     /* visibility: visible; */
     display: block;
 }
+
+#intro{
+    text-align: justify;
+}
