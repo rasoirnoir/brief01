@@ -1,4 +1,4 @@
-function sectionClick(){
+function sectionclick(){
     let target = event.target;
 
     while(target.nodeName  != "SECTION"){
