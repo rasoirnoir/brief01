@@ -27,3 +27,12 @@ function sectionclick(){
 
 
 }
+
+
+function apprenant(){
+
+    var tabprenom = new Array('William', 'Cécile', 'Vincent', 'Romain', 'Aline', 'Isabelle', 'Julian', 'Mohammed', 'Blandine', 'Paul-Emmanuel', 'Thomas', 'Elodie', 'Noredinne', 'Sana');
+    var rand = Math.floor(Math.random()*14);
+
+    console.log(tabprenom[rand]);
+}
