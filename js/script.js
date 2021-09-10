@@ -1,0 +1,3 @@
+function sectionClick(){
+    alert("click");
+}
