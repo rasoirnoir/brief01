@@ -34,5 +34,13 @@ function apprenant(){
     var tabprenom = new Array('William', 'Cécile', 'Vincent', 'Romain', 'Aline', 'Isabelle', 'Julian', 'Mohammed', 'Blandine', 'Paul-Emmanuel', 'Thomas', 'Elodie', 'Noredinne', 'Sana');
     var rand = Math.floor(Math.random()*14);
 
-    console.log(tabprenom[rand]);
+    var rdm_prenom = tabprenom[rand];
+    console.log(rdm_prenom);
+
+    btn_rdm = event.target;
+    btn_rdm.innerHTML = rdm_prenom.toUpperCase();
+    setTimeout(function(){
+        btn_rdm.innerHTML = "RANDOM APPRENANT";
+    }, 3000);
+    
 }

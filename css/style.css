@@ -40,6 +40,15 @@ body{
     display: block;
 }
 
+
+.random{
+    text-align: center;
+}
+
+#btn_rdm{
+    margin: 0 auto;
+}
+
 #intro{
     text-align: justify;
 }
