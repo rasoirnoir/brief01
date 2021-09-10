@@ -15,12 +15,15 @@ function sectionclick(){
 
     if(listeDeroulante.className.indexOf("visible") == 0){
         listeDeroulante.className = "invisible";
+        target.querySelector(".info-cliquez").innerHTML = "(cliquez pour dérouler)";
     }
     else{
         listeDeroulante.className = "visible";
+        target.querySelector(".info-cliquez").innerHTML = "(cliquez pour réduire)";
     }
     
     console.log("Liste déroulante : " + listeDeroulante + " classe : " + listeDeroulante.className);
+
 
 
 }
